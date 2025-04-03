@@ -1,0 +1,30 @@
+{
+  "name": "jsbridge-webview-native",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/util/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qddidi/jsbridge.git"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "kk_jsbridge": "^1.0.0"
+  }
+}
