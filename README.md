@@ -35,8 +35,8 @@ bridge
   });
 
 // 带参数的调用
-bridge.invoke<boolean>("enableGPS", true).then((success) => {
-  if (success) console.log("GPS已开启");
+bridge.invoke<boolean>("enableGPS", true).then((data) => {
+  if (data.code === 200) console.log("GPS已开启");
 });
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "jsbridge-webview-native",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/util/index.js",
   "types": "dist/types/index.d.ts",
@@ -12,7 +12,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "jsbridge",
+    "webview",
+    "native",
+    "bridge",
+    "Android",
+    "iOS"
+  ],
   "author": "",
   "license": "ISC",
   "repository": {
@@ -25,6 +32,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "jsbridge-webview-native": "^1.0.1",
     "kk_jsbridge": "^1.0.0"
   }
 }
